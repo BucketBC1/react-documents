@@ -33,7 +33,17 @@ function RenderHtmlElementsToTheDOM () {
                 <div>
                     <span>{");"}</span>
                 </div>
+                <div>
+                    <span>{"ReactDom.render("}</span>
+                </div>
+                <div>
+                    <span>{"JSX,"}</span>
+                </div>
+                <div>
+                    <p>{'document.getElementById("challenge-node"));'}</p>
+                </div>
             </code>
+
         </div>
     )
 

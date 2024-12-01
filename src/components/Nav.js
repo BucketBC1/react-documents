@@ -23,47 +23,47 @@ function Nav(){
             </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Define an HTML Class in JSX" className='link'>
                 Define an HTML Class in JSX
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Learn About Self-Closing JSX Tags"className='link'>
                 Learn About Self-Closing JSX Tags
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Create a Stateless Functional Component" className='link'>
                 Create a Stateless Functional Component
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Create a React Component" className='link'>
                 Create a React Component
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Create a Component with Composition" className='link'>
                 Create a Component with Composition
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Use React to Render Nested Components" className='link'>
                 Use React to Render Nested Components
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
-                Compose React Component	11
+              <Link to="/Compose React Component" className='link'>
+                Compose React Component
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Render a Class Component to the DOM" className='link'>
                 Render a Class Component to the DOM
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Write a React Component from Scratch" className='link'>
                 Write a React Component from Scratch
               </Link>
             </li>
