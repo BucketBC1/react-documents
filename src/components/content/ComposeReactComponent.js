@@ -10,90 +10,63 @@ function ComposeReactComponent() {
             <code>
                 <div>
                     <span>{"class Fruits extends React.Component {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| constructor(props) {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | super(props);"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| }"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| render() {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | return ("}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | <div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <h2>Fruits:</h2>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <NonCitrus/>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <Citrus/>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | </div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | );"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| }"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"};"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"- - - - - - - - - - - - - - - - - -"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"class TypesOfFood extends React.Component {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| constructor(props) {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | super(props);"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| }"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| render() {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | return ("}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | <div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <h2>Types of Food::</h2>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <Fruits/>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <Vegetables/>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | </div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | );"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| }"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"};"}</span>
+                    <br/>
                 </div>
             </code>
         </div>

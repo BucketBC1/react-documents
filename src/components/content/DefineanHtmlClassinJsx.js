@@ -12,23 +12,19 @@ function DefineAnHtmlClassinJsx(){
                     <span>
                         {"const JSX = ("}
                     </span>
-                </div>
-                <div>
+                    <br/>
                     <span>
-                        {'<div className="myDiv">'}
+                        {'| <div className="myDiv">'}
                     </span>
-                </div>
-                <div>
+                    <br/>
                     <span>
-                        {"<h1>Add a class to this  div</h1>"}
+                        {"| | <h1>Add a class to this  div</h1>"}
                     </span>
-                </div>
-                <div>
+                    <br/>
                     <span>
-                        {"div"}
+                        {"| </div>"}
                     </span>
-                </div>
-                <div>
+                    <br/>
                     <span>
                         {");"}
                     </span>

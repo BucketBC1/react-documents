@@ -13,17 +13,13 @@ function CreateaComponentwithComposition(){
             <code>
                 <div>
                     <span>{"<App>"}</span>
-                </div>
-                <div>
-                    <span>{"<Navbar/>"}</span>
-                </div>
-                <div>
-                    <span>{"<Dashboard/>"}</span>
-                </div>
-                <div>
-                    <span>{"<Footer/>"}</span>
-                </div>
-                <div>
+                    <br/>
+                    <span>{"| <Navbar/>"}</span>
+                    <br/>
+                    <span>{"| <Dashboard/>"}</span>
+                    <br/>
+                    <span>{"| <Footer/>"}</span>
+                    <br/>
                     <span>{"</App>"}</span>
                 </div>
             </code>
@@ -33,62 +29,43 @@ function CreateaComponentwithComposition(){
             <code>
                 <div>
                     <span>{"const ChildComponent = () => {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| return ("}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | <div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | <p>I am the child</p>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | </div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| );"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"};"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"- - - - - - - - - - - - - - -"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"class ParentComponent extends React.Component {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| constructor(props) {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | super(props);"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| }"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| render() {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | return ("}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | <div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <ChildComponent/>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | </div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | );"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| }"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"};"}</span>
                 </div>
             </code>

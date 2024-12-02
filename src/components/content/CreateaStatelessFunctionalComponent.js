@@ -16,17 +16,13 @@ function CreateaStatelessFunctionalComponent(){
             <code>
                 <div>
                     <span>{"const DemoComponent = function() {"}</span>
-                </div>
-                <div>
-                    <span>{"return ("}</span>
-                </div>
-                <div>
-                    <span>{"<div className='customClass'/>"}</span>
-                </div>
-                <div>
-                    <span>{");"}</span>
-                </div>
-                <div>
+                    <br/>
+                    <span>{"| return ("}</span>
+                    <br/>
+                    <span>{"| | <div className='customClass'/>"}</span>
+                    <br/>
+                    <span>{"| );"}</span>
+                    <br/>
                     <span>{"};"}</span>
                 </div>
             </code>

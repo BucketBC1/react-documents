@@ -10,32 +10,23 @@ function CreateaReactComponent() {
             <code>
                 <div>
                     <span>{"class Kitten extends React.Component {"}</span>
-                </div>
-                <div>
-                    <span>{"constructor(props) {"}</span>
-                </div>
-                <div>
-                    <span>{"super(props);"}</span>
-                </div>
-                <div>
-                    <span>{"}"}</span>
-                </div>
-                <div>
-                    <span>{"render() {"}</span>
-                </div>
-                <div>
-                    <span>{"return ("}</span>
-                </div>
-                <div>
-                    <span>{"<h1>Hi</h1>"}</span>
-                </div>
-                <div>
-                    <span>{");"}</span>
-                </div>
-                <div>
-                    <span>{"}"}</span>
-                </div>
-                <div>
+                    <br/>
+                    <span>{"| constructor(props) {"}</span>
+                    <br/>
+                    <span>{"| | super(props);"}</span>
+                    <br/>
+                    <span>{"| }"}</span>
+                    <br/>
+                    <span>{"| render() {"}</span>
+                    <br/>
+                    <span>{"| | return ("}</span>
+                    <br/>
+                    <span>{"| | | <h1>Hi</h1>"}</span>
+                    <br/>
+                    <span>{"| | );"}</span>
+                    <br/>
+                    <span>{"| }"}</span>
+                    <br/>
                     <span>{"}"}</span>
                 </div>
             </code>

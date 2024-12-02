@@ -22,26 +22,19 @@ function LearnAboutSelfClosingJsxTags (){
             <code>
                 <div>
                     <span>{"const JSX = ("}</span>
-                </div>
-                <div>
-                    <span>{"<div>"}</span>
-                </div>
-                <div>
-                    <span>{"<h2>Welcome to React!</h2> "}</span>
-                </div>
-                <div>
-                    <span>{"<br/>"}</span>
-                </div>
-                <div>
-                    <span>{"<p>Be sure to close all tags!</p>"}</span>
-                </div>
-                <div>
-                    <span>{"<hr/>"}</span>
-                </div>
-                <div>
-                    <span>{"</div>"}</span>
-                </div>
-                <div>
+                    <br/>
+                    <span>{"| <div>"}</span>
+                    <br/>
+                    <span>{"| | <h2>Welcome to React!</h2> "}</span>
+                    <br/>
+                    <span>{"| | <br/>"}</span>
+                    <br/>
+                    <span>{"| | <p>Be sure to close all tags!</p>"}</span>
+                    <br/>
+                    <span>{"| | <hr/>"}</span>
+                    <br/>
+                    <span>{"| </div>"}</span>
+                    <br/>
                     <span>{");"}</span>
                 </div>
             </code>

@@ -14,20 +14,15 @@ function AddCommentsinJsx() {
         <code>
           <div>
             <span>{"const JSX = ("}</span>
-          </div>
-          <div>
-            <span>{"</div>"}</span>
-          </div>
-          <div>
-            <span>{"{/* comment */}"}</span>
-          </div>
-          <div>
-            <span>{"<h1>This is a block of JSX</h1>"}</span>
-          </div>
-          <div>
-            <span>{"</div>"}</span>
-          </div>
-          <div>
+            <br/>
+            <span>{"| </div>"}</span>
+            <br/>
+            <span>{"| | {/* comment */}"}</span>
+            <br/>
+            <span>{"| | <h1>This is a block of JSX</h1>"}</span>
+            <br/>
+            <span>{"| </div>"}</span>
+            <br/>
             <span>{");"}</span>
           </div>
         </code>

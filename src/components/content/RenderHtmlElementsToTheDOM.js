@@ -17,30 +17,18 @@ function RenderHtmlElementsToTheDOM () {
             <code>
                 <div>
                     <span>{"const JSX = ("}</span>
-                </div>
-                <div>
-                    <span>{"<div>"}</span>
-                </div>
-                <div>
-                    <span>{"<h1>Hello World</h1>"}</span>
-                </div>
-                <div>
-                    <span>{"<p>Lets render this to the DOM</p>"}</span>
-                </div>
-                <div>
-                    <span>{"</div>"}</span>
-                </div>
-                <div>
+                    <br/>
+                    <span>{"| <div>"}</span>
+                    <br/>
+                    <span>{"| | <h1>Hello World</h1>"}</span>
+                    <br/>
+                    <span>{"| | <p>Lets render this to the DOM</p>"}</span>
+                    <br/>
+                    <span>{"| </div>"}</span>
+                    <br/>
                     <span>{");"}</span>
-                </div>
-                <div>
-                    <span>{"ReactDom.render("}</span>
-                </div>
-                <div>
-                    <span>{"JSX,"}</span>
-                </div>
-                <div>
-                    <p>{'document.getElementById("challenge-node"));'}</p>
+                    <br/>
+                    <span>{'ReactDom.render(JSX, document.getElementById("challenge-node"));'}</span>
                 </div>
             </code>
 

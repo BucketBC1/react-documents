@@ -13,107 +13,73 @@ function UseReactToRenderNestedComponents(){
             <code>
                 <div>
                     <span>{"const TypesOfFruit = () => {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| return ("}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | <div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | <h2>Fruits:</h2>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | <ul>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <li>Apples</li>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <li>Blueberries</li>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <li>Strawberries</li>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <li>Bananas</li>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | </ul>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | </div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| );"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"};"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"- - - - - - - - - - - - - - -"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"const Fruits = () => {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| return ("}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | <div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | <TypesOfFruit/>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | </div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| );"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"};"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"- - - - - - - - - - - - - - -"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"class TypesOfFood extends React.Component {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| constructor(props) {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | super(props);"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| }"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| render() {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | return ("}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | <div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <h1>Types of Food:</h1>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <Fruits/>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | </div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | );"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| }"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"};"}</span>
                 </div>
             </code>

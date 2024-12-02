@@ -26,17 +26,13 @@ function CreateaComplexJsxElement() {
         <code>
           <div>
             <span>{"<div>"}</span>
-          </div>
-          <div>
-            <span>{"<p>Paragraph One</p>"}</span>
-          </div>
-          <div>
-            <span>{"<p>Paragraph Two</p>"}</span>
-          </div>
-          <div>
-            <span>{"<p>Paragraph Three</p>"}</span>
-          </div>
-          <div>
+            <br/>
+            <span>{"| <p>Paragraph One</p>"}</span>
+            <br/>
+            <span>{"| <p>Paragraph Two</p>"}</span>
+            <br/>
+            <span>{"| <p>Paragraph Three</p>"}</span>
+            <br/>
             <span>{"</div>"}</span>
           </div>
         </code>
@@ -44,14 +40,11 @@ function CreateaComplexJsxElement() {
         <code>
           <div>
             <span>{"<p>Paragraph One</p>"}</span>
-          </div>
-          <div>
+            <br/>
             <span>{"<p>Paragraph Two</p>"}</span>
-          </div>
-          <div>
+            <br/>
             <span>{"<p>Paragraph Three</p>"}</span>
           </div>
-
         </code>
         <p>
           When rendering multiple elements like this, you can wrap them all in parentheses, but it’s not strictly required. Also notice this challenge uses a “div” tag to warp all the child elements within a single parent element. If you remove the “div”, the JSX will no longer transpile. Keep this in mind, since it will also apply when you return JSX elements in react components.
@@ -59,26 +52,19 @@ function CreateaComplexJsxElement() {
         <code>
           <div>
             <span>{"const JSX = <div>"}</span>
-          </div>
-          <div>
-            <span>{"<h1></h1>"}</span>
-          </div>
-          <div>
-            <span>{"<ul>"}</span>
-          </div>
-          <div>
-            <span>{"<li>Paragraph One</li>"}</span>
-          </div>
-          <div>
-            <span>{"<li>Paragraph Two</li>"}</span>
-          </div>
-          <div>
-            <span>{"<li>Paragraph Three</li>"}</span>
-          </div>
-          <div>
-            <span>{"</ul>"}</span>
-          </div>
-          <div>
+            <br/>
+            <span>{"| <h1></h1>"}</span>
+            <br/>
+            <span>{"| <ul>"}</span>
+            <br/>
+            <span>{"| | <li>Paragraph One</li>"}</span>
+            <br/>
+            <span>{"| | <li>Paragraph Two</li>"}</span>
+            <br/>
+            <span>{"| | <li>Paragraph Three</li>"}</span>
+            <br/>
+            <span>{"| </ul>"}</span>
+            <br/>
             <span>{"</div>"}</span>
           </div>
         </code>

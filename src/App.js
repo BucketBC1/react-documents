@@ -21,6 +21,8 @@ function App() {
       <Router>
         <Nav/>
         <main>
+          
+          
           <section>
             <Routes>
               <Route exact path="/Add Comments in JSX" element={<AddCommentsinJsx/>}/>
@@ -37,6 +39,8 @@ function App() {
               <Route path="/Write a React Component from Scratch" element={<WriteaReactComponentFromScratch/>}/>
             </Routes>
           </section>
+
+
         </main>
         
       </Router>

@@ -16,47 +16,33 @@ const RenderaClassComponentTotheDOM = () => {
             <code>
                 <div>
                     <span>{"class TypesOfFood extends React.Component {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| constructor(props) {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | super(props);"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| }"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| render() {"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | return ("}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | <div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <h1>Types of Food</h1>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <Fruits/>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | | <Vegetables/>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | | </div>"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| | );"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"| }"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{"};"}</span>
-                </div>
-                <div>
+                    <br/>
                     <span>{'ReactDOM.render(<TypesOfFood/>, document.getElementById("challenge-node"))'}</span>
                 </div>
             </code>
