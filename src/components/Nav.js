@@ -68,52 +68,52 @@ function Nav(){
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Pass Props to a Stateless Functional Component" className='link'>
                 Pass Props to a Stateless Functional Component
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Pass an Array as Props" className='link'>
                 Pass an Array as Props
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Use Default Props" className='link'>
                 Use Default Props
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Override Default Props" className='link'>
                 Override Default Props
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Use PropTypes to Define the Props You Expect" className='link'>
                 Use PropTypes to Define the Props You Expect
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="Access Props Using this.props" className='link'>
                 Access Props Using this.props
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Review Using Props with Stateless Functional Components" className='link'>
                 Review Using Props with Stateless Functional Components
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Create a Stateful Component" className='link'>
                 Create a Stateful Component
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Render State in the User Interface" className='link'>
                 Render State in the User Interface
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Render State in the User Interface Another Way" className='link'>
                 Render State in the User Interface Another Way
               </Link>
             </li>
