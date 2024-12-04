@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Link } from 'react-router-dom';
 
 
@@ -118,37 +118,37 @@ function Nav(){
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Set State with this.setState" className='link'>
                 Set State with this.setState
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Bind this to a Class Method" className='link'>
                 Bind ‘this’ to a Class Method
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Use stage to Toggle an Element" className='link'>
                 Use stage to Toggle an Element
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Write a Simple Counter" className='link'>
                 Write a Simple Counter
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Create a Controlled Input" className='link'>
                 Create a Controlled Input
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Create a Controlled Form" className='link'>
                 Create a Controlled Form
               </Link>
             </li>
             <li className='navIl'>
-              <Link className='link'>
+              <Link to="/Pass State as Props to Child Components" className='link'>
                 Pass State as Props to Child Components
               </Link>
             </li>

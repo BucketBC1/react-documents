@@ -23,6 +23,13 @@ import ReviewUsingPropsWithStatelessFunctionalComponents from './components/cont
 import CreateAStatefulComponent from './components/content/CreateaStatefulComponent';
 import RenderStateInTheUserInterface from './components/content/RenderStateInTheUserInterface';
 import RenderStateInTheUserInterfaceAnotherWay from './components/content/RenderStateInTheUserInterfaceAnotherWay';
+import SetStateWithThisSetState from './components/content/SetStatewiththisSetState';
+import BindThisToClassMethod from './components/content/BindThisToaClassMethod';
+import UseStageToToggleAnElement from './components/content/UseStageToToggleAnElement';
+import WriteaSimpleCounter from './components/content/WriteaSimpleCounter';
+import CreateAControlledInput from './components/content/CreateaControlledInput';
+import CreateaControlledForm from './components/content/CreateaControlledForm';
+import PassStateAsPropsToChildComponents from './components/content/PassStateAsPropsToChildComponents';
 import Main from './components/Main';
 import './styles/App.css';
 
@@ -57,6 +64,13 @@ function App() {
               <Route path="/Create a Stateful Component" element={<CreateAStatefulComponent/>}/>
               <Route path='/Render State in the User Interface' element={<RenderStateInTheUserInterface/>}/>
               <Route path='/Render State in the User Interface Another Way' element={<RenderStateInTheUserInterfaceAnotherWay/>}/>
+              <Route path='/Set State with this.setState' element={<SetStateWithThisSetState/>}/>
+              <Route path='/Bind this to a Class Method' element={<BindThisToClassMethod/>}/>
+              <Route path='/Use stage to Toggle an Element' element={<UseStageToToggleAnElement/>}/>
+              <Route path='/Write a Simple Counter' element={<WriteaSimpleCounter/>}/>
+              <Route path='/Create a Controlled Input' element={<CreateAControlledInput/>}/>
+              <Route path='/Create a Controlled Form' element={<CreateaControlledForm/>}/>
+              <Route path='/Pass State as Props to Child Components' element={<PassStateAsPropsToChildComponents/>}/>
             </Routes>
           </section>
         </main>
